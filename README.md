@@ -4,4 +4,8 @@ Firstly, was made an exploratory data analysis, checking statistical information
 Secondly data was modeled using three different machine learning models, Random Forest Regressor (RFR), Gradient Boosting Regressor (GBR) and Xtreme Gradient Boosting Regressor (XGBR). Each method was initially trained using the same random hyperparameters and then were improved using the GridSearch method of Scikit-Learn Python library, which found the best hyperparameters (of an inserted list of them) that get a better fit on the train data. Then we made the cross-validation process trying to verify if the model was overfitting the dataset using 5 folds per method. In this case we found similar performance in the three methods, getting an score in cross-validation surrounding 85%.
 Finally were made the predictions of house prices on the test dataset.
 
-# About the used machine learning models.
+# Quick overview about the used machine learning models.
+1. Random Forest Regressor:
+2. Gradient Boosting Regressor:
+3. Xtreme Gradient Boosting Regressor:
+
